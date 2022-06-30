@@ -119,6 +119,7 @@ function Luxt1.CreateWindow(libName, logoId)
     MainFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
     MainFrame.Position = UDim2.new(0.048, 0,0.075, 0)
     MainFrame.Size = UDim2.new(0, 553, 0, 452)
+    MainFrame.Active = true
     MainFrame.Draggable = true
 
     sideHeading.Name = "sideHeading"
