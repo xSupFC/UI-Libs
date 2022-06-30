@@ -96,12 +96,6 @@ function Luxt1.CreateWindow(libName, logoId)
         end
     end)
 
-    UserInputService.InputEnded:Connect(function(input)
-        if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
-            Draggable = false
-        end
-    end)
-
     pageFolder.Name = "pageFolder"
     pageFolder.Parent = framesAll
 
